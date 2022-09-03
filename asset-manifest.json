@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/unlucky-duck/static/css/main.073c9b0a.css",
+    "main.js": "/unlucky-duck/static/js/main.ba811d9a.js",
+    "static/js/787.8087b264.chunk.js": "/unlucky-duck/static/js/787.8087b264.chunk.js",
+    "static/media/logo.svg": "/unlucky-duck/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/unlucky-duck/index.html",
+    "main.073c9b0a.css.map": "/unlucky-duck/static/css/main.073c9b0a.css.map",
+    "main.ba811d9a.js.map": "/unlucky-duck/static/js/main.ba811d9a.js.map",
+    "787.8087b264.chunk.js.map": "/unlucky-duck/static/js/787.8087b264.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ba811d9a.js"
+  ]
+}
