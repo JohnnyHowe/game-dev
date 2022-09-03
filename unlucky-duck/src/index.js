@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from './home';
+
+import TowerDropperHome from './tower-dropper/home';
+import TowerDropperPrivacyPolicy from './tower-dropper/privacy-policy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/unlucky-duck/" element={<Home />} />
+      <Route path="/unlucky-duck/tower-dropper/" element={<TowerDropperHome />} />
+      <Route path="/unlucky-duck/tower-dropper/privacy-policy" element={<TowerDropperPrivacyPolicy />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
