@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/unlucky-duck/static/css/main.8d224535.css",
-    "main.js": "/unlucky-duck/static/js/main.f6a4034b.js",
+    "main.css": "/unlucky-duck/static/css/main.e5ec7675.css",
+    "main.js": "/unlucky-duck/static/js/main.aa2c7212.js",
     "static/js/787.8087b264.chunk.js": "/unlucky-duck/static/js/787.8087b264.chunk.js",
-    "static/media/logo.svg": "/unlucky-duck/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/unlucky-duck/index.html",
-    "main.8d224535.css.map": "/unlucky-duck/static/css/main.8d224535.css.map",
-    "main.f6a4034b.js.map": "/unlucky-duck/static/js/main.f6a4034b.js.map",
+    "main.e5ec7675.css.map": "/unlucky-duck/static/css/main.e5ec7675.css.map",
+    "main.aa2c7212.js.map": "/unlucky-duck/static/js/main.aa2c7212.js.map",
     "787.8087b264.chunk.js.map": "/unlucky-duck/static/js/787.8087b264.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d224535.css",
-    "static/js/main.f6a4034b.js"
+    "static/css/main.e5ec7675.css",
+    "static/js/main.aa2c7212.js"
   ]
 }
