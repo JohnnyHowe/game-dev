@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div class="center">
             <h1>tower dropper</h1>
-            <Link to="/unlucky-duck/tower-dropper/privacy-policy">privacy policy</Link>
+            <Link to="/tower-dropper/privacy-policy">privacy policy</Link>
         </div>
     )
 }
