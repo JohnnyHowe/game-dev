@@ -9,6 +9,9 @@ import Home from './home';
 import TowerDropperHome from './tower-dropper/home';
 import TowerDropperPrivacyPolicy from './tower-dropper/privacy-policy';
 
+import DriftoHome from './drifto/home';
+import DriftoPrivacyPolicy from './drifto/privacy-policy';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -16,6 +19,8 @@ root.render(
       <Route path="/unlucky-duck/" element={<Home />} />
       <Route path="/unlucky-duck/tower-dropper/" element={<TowerDropperHome />} />
       <Route path="/unlucky-duck/tower-dropper/privacy-policy" element={<TowerDropperPrivacyPolicy />} />
+      <Route path="/unlucky-duck/drifto/" element={<DriftoHome />} />
+      <Route path="/unlucky-duck/drifto/privacy-policy" element={<DriftoPrivacyPolicy />} />
     </Routes>
   </BrowserRouter>
 );
