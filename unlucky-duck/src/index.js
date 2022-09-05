@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from './home';
 
@@ -14,15 +14,15 @@ import DriftoPrivacyPolicy from './drifto/privacy-policy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
-      <Route path="/unlucky-duck/" element={<Home />} />
-      <Route path="/unlucky-duck/tower-dropper/" element={<TowerDropperHome />} />
-      <Route path="/unlucky-duck/tower-dropper/privacy-policy" element={<TowerDropperPrivacyPolicy />} />
-      <Route path="/unlucky-duck/drifto/" element={<DriftoHome />} />
-      <Route path="/unlucky-duck/drifto/privacy-policy" element={<DriftoPrivacyPolicy />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/tower-dropper/" element={<TowerDropperHome />} />
+      <Route path="/tower-dropper/privacy-policy" element={<TowerDropperPrivacyPolicy />} />
+      <Route path="/drifto/" element={<DriftoHome />} />
+      <Route path="/drifto/privacy-policy" element={<DriftoPrivacyPolicy />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
