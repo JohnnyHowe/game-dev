@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/unlucky-duck/static/css/main.e5ec7675.css",
-    "main.js": "/unlucky-duck/static/js/main.cc931367.js",
+    "main.js": "/unlucky-duck/static/js/main.1374c65f.js",
     "static/js/787.8087b264.chunk.js": "/unlucky-duck/static/js/787.8087b264.chunk.js",
     "index.html": "/unlucky-duck/index.html",
     "main.e5ec7675.css.map": "/unlucky-duck/static/css/main.e5ec7675.css.map",
-    "main.cc931367.js.map": "/unlucky-duck/static/js/main.cc931367.js.map",
+    "main.1374c65f.js.map": "/unlucky-duck/static/js/main.1374c65f.js.map",
     "787.8087b264.chunk.js.map": "/unlucky-duck/static/js/787.8087b264.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5ec7675.css",
-    "static/js/main.cc931367.js"
+    "static/js/main.1374c65f.js"
   ]
 }
