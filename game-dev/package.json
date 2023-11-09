@@ -1,7 +1,7 @@
 {
-  "name": "unlucky-duck",
+  "name": "game-dev",
   "version": "0.1.0",
-  "homepage": "https://JohnnyHowe.github.io/unlucky-duck",
+  "homepage": "https://JohnnyHowe.github.io/game-dev",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
